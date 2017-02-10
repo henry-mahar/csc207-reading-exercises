@@ -1,0 +1,14 @@
+T'(0) = 0
+T'(n) = 1 + T(n -2)
+
+1) Express in terms of k, the number of unfoldings
+T(n) = k + T(n - 2k)
+
+2) Find where n = k
+T(n - 2k) = T(n/2 - k) = T(0)
+
+T(n) = n/2 + T(0)
+T(n) = n/2
+
+The result is linear. Our result does not change if we subtract any constant k.
+It will always result in linear complexity.
