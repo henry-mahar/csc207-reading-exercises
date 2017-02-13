@@ -1,0 +1,7 @@
+a)
+Stack                Heap
+-----                ----
+c     [  ]---------> Counter
+                     value [ 0 ]
+b)
+It's value is 1
