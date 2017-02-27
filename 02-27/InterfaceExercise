@@ -1,0 +1,6 @@
+1. Line A compiles correctly, as I has a foo() method. The output will be C.foo
+2. Line B fails to type check, as I does not have a bar method. There will be a compiler error.
+
+SubTyping is very precise, in that if an object is declared as an interface, it must have exactly the methods declared in the interface.
+This leads to objects that have more methods than the ones declared in the interface producing compiler errors.
+These "safe" objects are rejected by Java's typing system.
